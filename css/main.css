@@ -1,7 +1,7 @@
 
 /* тут мы будем писать стилизацию для  основного кода */
 body{
-            background-color: green;
+            background-color: white;
         }
         h1 {
             font-size: 8vw;
@@ -38,6 +38,30 @@ body{
         background: plum;
         color: azure;
         
+    }
+    nav{
+        background: whitesmoke;
+        width: 300px;
+        position: fixed;
+        top: 45px;
+        left: 10bx;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.1;
+        transition: all 0.5s ease;
+    }
+
+    nav:hover{
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    p{
+        margin-top: 0.5%;
+    }
+    h1, h2, h3, p, ul, ol, div, img, hr{
+        width: 700px;
+        margin: 20px auto;
     }
         
           
