@@ -1,0 +1,43 @@
+
+/* тут мы будем писать стилизацию для  основного кода */
+body{
+            background-color: green;
+        }
+        h1 {
+            font-size: 8vw;
+            color: rgb(255, 255, 255);
+
+        }
+        .ptichki_ptichki{
+            font-size: 14vw;
+            transition: all 1s ease-in-out;
+        }
+        .ptichki_ptichki:hover{
+            color: rgb(247, 207, 99);
+            transition: all 1s ease-in-out;
+
+        }
+.paragrafh_first{
+    font-size: 20vw;
+    color: blanchedalmond;
+    margin-left: 10%;
+    padding-left: 10%;
+    
+}
+
+.paragrafh_first{
+    margin-left: 5%;
+    background: yellowgreen;
+    padding-left: 5%;
+    border: 1px solid darkolivegreen;
+    
+}
+.div_container{
+        width: 10%;
+        height: 10%;
+        background: plum;
+        color: azure;
+        
+    }
+        
+          
